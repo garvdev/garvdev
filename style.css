@@ -1,3 +1,76 @@
-h1 {
-    font-size:100px;
+/* Global Styles */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Inter, Poppins, sans-serif;
+}
+
+header {
+
+}
+
+/* Navigation Bar Styling and Positioning */
+/* set grid properties of navbar */
+nav {
+
+    position: fixed;
+    display: grid;
+    grid-template: 50px / minmax(80px, 1000px) minmax(0px, 1000px) repeat(4, minmax(80px, 1000px)) minmax(0px, 1000px) minmax(80px, 1000px);
+    
+}
+
+button {
+    cursor:pointer;
+}
+
+/* set styling of navbar elements */
+.navbar {
+    border: red 1px solid;
+    text-align: center;
+    font-size: medium;
+}
+
+.logo {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buffer{
+
+}
+
+/* set styling of navbar buttons for current page */
+.current-page {
+
+}
+
+/* set styling of navbar buttons for non-current pages */
+.noncurrent-page {
+
+}
+
+/* set grid properties of middle navbar sections */
+.current-page,
+.noncurrent-page {
+
+}
+
+.contact-button {
+
+}
+
+@media only screen and (max-width: 480px) {
+    nav {
+        grid-template: 50px / 50px minmax(0px, 70px) minmax(80px, 240px) minmax(0px,70px) 50px;
+    }
+    .noncurrent-page {
+        display: none;
+    }
+
+
+/* Homepage Positioning and Styling */
+section {
+    
 }
