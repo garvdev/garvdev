@@ -19,12 +19,16 @@ body {
     justify-content: flex-start;
 }
 
-h1, p, article, aside {
+h1, h2, p, article, aside {
     margin: 5px;
 }
 
 h1 {
     font-size: 1.5em;
+}
+
+h2 {
+    font-size: 1.2em;
 }
 
 .buffer {
@@ -73,7 +77,7 @@ section {
     section {
         margin: 5px 5px;
     }
-    h1 {
+    h1, h2 {
         text-align: center;
     }
 }
@@ -141,11 +145,18 @@ label {
 }
 /* ------------------------------ Footer ------------------------------ */
 
+footer {
+    margin-top: 100px;
+    width: 100%;
+    height: 150px;
+    background-color: #303036;
+    position: relative;
+}
 
 /* ----------------------------- Homepage ----------------------------- */
 
 .gallery {
-    margin: 5px 0px;
+    margin: 0px;
     display: inline-flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -221,19 +232,54 @@ section.skills .icons {
 
 section.projects img {
     max-width: 300px;
-    margin: 25px;
-}   
+    margin: 20px;
+}
+
+section.projects h2 {
+    margin-left: 20px;
+}
 
 section.projects a {
-    margin: 5px 0px;
+    margin-right: 20px;
 }
 
 @media only screen and (max-width: 480px) {
     section.projects img {
-        max-width: 300px;
+        max-width: 100%;
         margin: 5px;
-    }   
+    }
+    section.projects h2 {
+        margin-left: 0px;
+    }
+    section.projects a {
+        margin-right: 0px;
+    }
 }
+
 /* ------- Blog ------- */
 
+section.blog img {
+    max-width: 400px;
+    margin: 20px;
+}
 
+section.blog h2 {
+    margin-left: 20px;
+}
+
+section.blog a {
+    margin-right: 20px;
+}
+
+@media only screen and (max-width: 480px) {
+    section.blog img {
+        max-width: 100%;
+        margin: 5px;
+    }
+    section.blog h2 {
+        margin-left: 0px;
+    }
+    section.blog a {
+        margin-right: 0px;
+    }
+}
