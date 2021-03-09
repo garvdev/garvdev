@@ -41,15 +41,6 @@ section {
     margin: 50px 0px;
 }
 
-@media only screen and (max-width: 480px) {
-    section {
-        margin: 5px 0px;
-    }
-    h1 {
-        text-align:center;
-    }
-}
-
 .row-flex {
     display: flex;
     flex: 1 1 auto;
@@ -66,8 +57,30 @@ section {
     flex-flow: column wrap;
 }
 
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+@media only screen and (max-width: 1024px) {
+    section {
+        margin: 5px 0px;
+    }
+    h1 {
+        text-align:center;
+    }
+}
+
 /* ------------------------ Navigation Bar ----------------------- */
 /* Set properties of navbar */
+
 nav {
     position: fixed;
     top: 0px;
@@ -131,10 +144,6 @@ label {
 
 /* ----------------------------- Homepage ----------------------------- */
 
-.right-align {
-    text-align: right;
-}
-
 .gallery {
     display: inline-flex;
     justify-content: center;
@@ -142,6 +151,11 @@ label {
 }
 
 /* ------- Introduction ------- */
+
+section.intro {
+    height: calc(100vh - 60px); /* Account for header offset and margins */
+    margin: 0px;
+}
 
 section.intro figure {
     width: 100%;
@@ -166,7 +180,11 @@ section.intro figcaption {
     align-items: center;
     text-align: left;
 }
-
+@media only screen and (max-width: 1024px) {
+    section.intro {
+        height: auto;
+    }
+}
 /* ------- Skills ------- */
 
 section.skills article {
@@ -191,7 +209,7 @@ section.skills .icons {
     margin: 15px 15px;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 1024px) {
     section.intro img {
         width: 100%;
         height: auto;
