@@ -66,7 +66,7 @@ section {
     flex-flow: column wrap;
 }
 
-/* ----------------------------- Navigation Bar ----------------------------- */
+/* ------------------------ Navigation Bar ----------------------- */
 /* Set properties of navbar */
 nav {
     position: fixed;
@@ -126,6 +126,8 @@ label {
         z-index:0;
     }
 }
+/* ------------------------------ Footer ------------------------------ */
+
 
 /* ----------------------------- Homepage ----------------------------- */
 
@@ -215,4 +217,5 @@ section.projects h1, section.projects a {
 }
 
 /* ------- Blog ------- */
+
 
