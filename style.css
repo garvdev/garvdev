@@ -25,10 +25,17 @@ h1, h2, p, article, aside {
 
 h1 {
     font-size: 1.5em;
+    font-weight: 500;
 }
 
 h2 {
     font-size: 1.2em;
+    font-weight: 500;
+}
+
+h3 {
+    font-size: 1.1em;
+    font-weight: 400;
 }
 
 .buffer {
@@ -71,6 +78,14 @@ section {
 
 .text-center {
     text-align: center;
+}
+
+.left-margin {
+    margin-left: 20px;
+}
+
+.right-margin {
+    margin-right: 20px;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -235,14 +250,6 @@ section.projects img {
     margin: 20px;
 }
 
-section.projects h2 {
-    margin-left: 20px;
-}
-
-section.projects a {
-    margin-right: 20px;
-}
-
 @media only screen and (max-width: 480px) {
     section.projects img {
         max-width: 100%;
@@ -260,15 +267,11 @@ section.projects a {
 
 section.blog img {
     max-width: 400px;
-    margin: 20px;
-}
-
-section.blog h2 {
-    margin-left: 20px;
+    margin: 20px 20px 0px 20px;
 }
 
 section.blog a {
-    margin-right: 20px;
+    margin-top: 20px;
 }
 
 @media only screen and (max-width: 480px) {
