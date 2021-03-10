@@ -41,18 +41,28 @@ h3 {
 main {
     position: relative;
     top: 50px;
-    margin: 5px;
+    margin: 0px 5px 0px 5px;
 }
 
 section {
     margin: 50px 0px;
 }
 
+@media only screen and (max-width: 1024px) {
+    section {
+        margin: 5px 5px;
+    }
+
+    h2 {
+        text-align: center !important;
+    }
+}
+
 /* ------------- Class Styling ------------ */
 
 .row-flex {
     display: flex;
-    flex: 1 1 auto;
+    flex: 1 auto;
     justify-content: space-evenly;
     align-content: center;
     flex-flow: row wrap;
@@ -60,7 +70,7 @@ section {
 
 .col-flex {
     display: flex;
-    flex: 1 1 auto;
+    flex: 1 auto;
     justify-content: center;
     align-content: center;
     flex-flow: column wrap;
@@ -94,27 +104,16 @@ section {
     display: none;
 }
 
-@media only screen and (max-width: 1024px) {
-    section {
-        margin: 5px 5px;
-    }
-
-    h2 {
-        text-align: center !important;
-    }
-}
-
 /* ------------------------ Navigation Bar ----------------------- */
 /* Set properties of navbar */
 
 nav {
     position: fixed;
-    top: 0px;
-    width: 100%;
+    width: 100vw;
     height: 50px;
 
     display: flex;
-    flex: 1 1 auto;
+    flex: 1 auto;
     justify-content: center;
 
     background-color: #303036;
@@ -129,7 +128,7 @@ nav {
 /* Additional specificity for buttons on navbar */
 button, a.top {
     cursor: pointer;
-    flex: 1 1 auto;
+    flex: 1 auto;
     justify-content: space-between;
     background-color: #303036;
     color: #fffaff;
@@ -141,13 +140,13 @@ button, a.top {
 
 /* Styling of top left logo on desktop */
 label {
-    flex: 1 1 auto;
+    flex: 1 auto;
     margin: 15px 0px;
     justify-content: center;
     font-weight: 500;
 }
 
-/* Styling of top left menu button on mobile */
+/* Styling of top left menu icon on mobile */
 .mobile svg, .mobile svg path {
     flex: 1 auto;
     justify-items: center;
@@ -156,6 +155,7 @@ label {
     margin: 13px;
 }
 
+/* Styling of mobile icons */
 .mobile {
     flex: 0 auto;
     justify-content: center;
