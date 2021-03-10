@@ -141,13 +141,29 @@ button {
     font-weight: 500;
 }
 
-/* Top left label on navbar centered and padded */
+/* Top left button */
 label {
     flex: 1 1 auto;
-    padding: 15px 0px;
+    margin: 15px 0px;
     justify-content: center;
 
     font-weight: 500;
+}
+
+button.menu svg {
+    flex: 1 auto;
+    justify-items: center;
+    align-items: center;
+    fill: #fffaff;
+    margin: 13px;
+}
+
+button.menu {
+    flex: 0 auto;
+    justify-content: center;
+    align-content: center;
+    height: 50px;
+    width: 50px;
 }
 
 /* Set styling of navbar buttons for current page */
@@ -170,7 +186,14 @@ label {
     .contact, label {
         display: none;
     }
+    button.menu {
+        display: block;
+    }
 }
+
+button.menu:hover > #burger {display: none;}
+button.menu:hover > #double-arrow {display: block;}
+
 /* ------------------------------ Footer ------------------------------ */
 
 footer {
