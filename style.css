@@ -45,12 +45,14 @@ h3 {
 main {
     position: relative;
     top: 50px;
-    margin: 5px 5px;
+    margin: 5px;
 }
 
 section {
     margin: 50px 0px;
 }
+
+/* ------------- Class Styling ------------ */
 
 .row-flex {
     display: flex;
@@ -86,6 +88,14 @@ section {
 
 .right-margin {
     margin-right: 20px;
+}
+
+.curved {
+    border-radius: 10px;
+}
+
+.hidden {
+    display: none;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -137,7 +147,7 @@ label {
     padding: 15px 0px;
     justify-content: center;
 
-    font-weight:500;
+    font-weight: 500;
 }
 
 /* Set styling of navbar buttons for current page */
@@ -158,7 +168,7 @@ label {
         display: none;
     }
     .contact, label {
-        z-index:0;
+        display: none;
     }
 }
 /* ------------------------------ Footer ------------------------------ */
@@ -299,19 +309,17 @@ section.projects img {
 
 /* ------- Blog ------- */
 
-section.blog img {
+section.blog figure {
     max-width: 400px;
-    margin: 20px 20px 0px 20px;
-}
-
-section.blog a {
-    margin-top: 20px;
+    margin: 20px;
 }
 
 @media only screen and (max-width: 480px) {
-    section.blog img {
-        width: calc(100vw - 10px);
-        margin: 20px 5px 0px 5px;
+    section.blog figure, section.blog img {
+        max-width: calc(100vw - 40px);
+    }
+    section.blog figure {
+        margin: 5px;
     }
     section.blog a {
         margin-right: 0px;
