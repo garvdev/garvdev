@@ -121,6 +121,8 @@ nav {
     color: #fffaff;
     text-align: center;
 
+    opacity: 0.98;
+
     z-index: 10;
 }
 
@@ -137,7 +139,7 @@ button, a.top {
     height: 50px;
 }
 
-/* Top left button */
+/* Styling of top left logo on desktop */
 label {
     flex: 1 1 auto;
     margin: 15px 0px;
@@ -145,6 +147,7 @@ label {
     font-weight: 500;
 }
 
+/* Styling of top left menu button on mobile */
 .mobile svg, .mobile svg path {
     flex: 1 auto;
     justify-items: center;
@@ -160,6 +163,26 @@ label {
     height: 50px;
     width: 50px;
 }
+
+.dropdown-1, .dropdown-2, .dropdown-3 {
+    position: fixed;    
+    background-color: #303036;
+    width: 100vw;
+    height: 50px;
+}
+
+.dropdown-2 {
+    top: 100px;
+}
+
+.dropdown-3 {
+    top: 150px;
+}
+
+/* Navbar Menu Functionality */
+button.menu:hover > #burger {display: none;}
+button.menu:hover > #double-arrow {display: block;}
+button.menu:hover ~ button.hidden {display: block;}
 
 /* Set styling of navbar buttons for current page */
 .current-page {
@@ -184,7 +207,7 @@ label {
     .contact, label {
         display: none;
     }
-    button.menu {
+    div.dropdown {
         display: block;
     }
     button.mail {
@@ -195,9 +218,7 @@ label {
     }
 }
 
-/* Navbar Menu Functionality */
-button.menu:hover > #burger {display: none;}
-button.menu:hover > #double-arrow {display: block;}
+
 
 /* ------------------------------ Footer ------------------------------ */
 
