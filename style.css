@@ -170,10 +170,13 @@ label {
    color: #1a6cef;
 }
 
-/* Navbar Hover Functionality */
+/* Navbar Hover Styling */
+.highlight:hover, .current-page:hover > .top, .top:hover > .current-page {
+    background-color: #fffaff;
+    color: #303036;
+}
 
-
-/* Navbar Responsive Functionality */
+/* Navbar Responsive Styling */
 @media only screen and (max-width: 480px) {
     .current-page {
         width: 30%;
@@ -195,6 +198,7 @@ label {
     }
 }
 
+/* Navbar Menu Functionality */
 button.menu:hover > #burger {display: none;}
 button.menu:hover > #double-arrow {display: block;}
 
