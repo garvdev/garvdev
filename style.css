@@ -104,37 +104,43 @@ section {
     display: none;
 }
 
-/* ------------------------ Navigation Bar ----------------------- */
-/* Set properties of navbar */
+.invisible {
+    visibility: hidden;
+    opacity: 0%;
+}
 
+/* ------------------------ Navigation Bar ----------------------- */
+/* Main Navbar Styling */
 nav {
     position: fixed;
     width: 100vw;
     height: 50px;
 
     display: flex;
-    flex: 1 auto;
     justify-content: center;
 
     background-color: #303036;
     color: #fffaff;
     text-align: center;
 
-    opacity: 0.98;
-
     z-index: 10;
 }
 
-/* Additional specificity for buttons on navbar */
-button, a.top {
+/* --------------- Desktop --------------- */
+/* Navbar Button Styling */
+nav button, nav a {
     cursor: pointer;
-    flex: 1 auto;
-    justify-content: space-between;
     background-color: #303036;
     color: #fffaff;
-    text-align: center;
     font-size: medium; 
     font-weight: 500;
+    text-decoration: none;
+    
+    display: flex;
+    flex: 1 auto;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
     height: 50px;
 }
 
@@ -146,7 +152,20 @@ label {
     font-weight: 500;
 }
 
-/* Styling of top left menu icon on mobile */
+/* Navbar Current Page Styling */
+.current-page {
+    color: #1a6cef;
+}
+
+/* Navbar Hover Styling */
+.highlight:hover {
+    background-color: #fffaff;
+    color: #303036;
+    transition: all 0.5s;
+}
+
+/* --------------- Mobile --------------- */
+/* Mobile Icon Styling */
 .mobile svg, .mobile svg path {
     flex: 1 auto;
     justify-items: center;
@@ -155,7 +174,7 @@ label {
     margin: 13px;
 }
 
-/* Styling of mobile icons */
+/* Mobile Icon Positioning */
 .mobile {
     flex: 0 auto;
     justify-content: center;
@@ -164,39 +183,45 @@ label {
     width: 50px;
 }
 
-.dropdown-1, .dropdown-2, .dropdown-3 {
+/* Dropdown Menu Styling */
+a.dropdown {
+    display: flex;
     position: fixed;    
     background-color: #303036;
     width: 100vw;
     height: 50px;
+    top: 48px;
 }
 
-.dropdown-2 {
-    top: 100px;
-}
-
-.dropdown-3 {
-    top: 150px;
-}
-
-/* Navbar Menu Functionality */
+/* Dropdown Menu Hover Behaviour */
 button.menu:hover > #burger {display: none;}
 button.menu:hover > #double-arrow {display: block;}
-button.menu:hover ~ button.hidden {display: block;}
 
-/* Set styling of navbar buttons for current page */
-.current-page {
-   color: #1a6cef;
+button.menu:hover ~ a.invisible {
+    visibility: visible;
+    opacity: 100%;
+    transition: opacity 1s;
 }
 
-/* Navbar Hover Styling */
-.highlight:hover, .current-page:hover > .top, .top:hover > .current-page {
-    background-color: #fffaff;
-    color: #303036;
-    transition: all 0.5s;
+button.menu:hover ~ a.d-1 {
+    filter: brightness(110%);
+    top: 50px;
+    transition: top 0.5s;
 }
 
-/* Navbar Responsive Styling */
+button.menu:hover ~ a.d-2 {
+    filter: brightness(120%);
+    top: 100px;
+    transition: top 0.5s;
+}
+
+button.menu:hover ~ a.d-3 {
+    filter: brightness(130%);
+    top: 150px;
+    transition: top 0.5s;
+}
+
+/* Mobile Responsive Behaviour */
 @media only screen and (max-width: 480px) {
     .current-page {
         width: 30%;
@@ -217,8 +242,6 @@ button.menu:hover ~ button.hidden {display: block;}
         display: none;
     }
 }
-
-
 
 /* ------------------------------ Footer ------------------------------ */
 
