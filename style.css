@@ -11,6 +11,14 @@
 }
 
 /* ------------------------------- Global Styling --------------------------- */
+
+a { text-decoration: none; color:#303036; }
+
+a:visited { text-decoration: none; color:#303036; }
+a:hover { text-decoration: none; color:#303036; }
+a:focus { text-decoration: none; color:#303036; }
+a:hover, a:active { text-decoration: none; color:#303036; }
+
 body {
     background-color: #fffaff;
 }
@@ -127,20 +135,18 @@ nav {
 
 /* --------------- Desktop --------------- */
 /* Navbar Button Styling */
-nav button, nav a {
-    cursor: pointer;
-    background-color: #303036;
-    color: #fffaff;
+nav a { 
     font-size: medium; 
     font-weight: 500;
     text-decoration: none;
     
-    display: flex;
+    display: inline-flex;
     flex: 1 auto;
-    flex-direction: column;
     justify-content: center;
-    text-align: center;
+    align-items: center;
     height: 50px;
+
+    color: #fffaff!important;
 }
 
 /* Styling of top left logo on desktop */
@@ -153,13 +159,13 @@ nav button, nav a {
 
 /* Navbar Current Page Styling */
 .current-page {
-    color: #1a6cef;
+    color: #1a6cef!important;
 }
 
 /* Navbar Hover Styling */
 .highlight:hover {
     background-color: #fffaff;
-    color: #303036;
+    color: #303036 !important;
     transition: all 0.5s;
 }
 
@@ -315,6 +321,10 @@ svg.svg {
     align-items: center;
 }
 
+.box-link {
+    
+    box-shadow: 2px 2px;
+}
 /* ------- Introduction ------- */
 
 section.intro {
@@ -353,7 +363,7 @@ section.intro figcaption {
 
 /* ------- Skills ------- */
 
-section.skills article {
+section.skills div.paragraph {
     max-width: 700px;
     display: inline-flex;
     justify-content: space-evenly;
@@ -361,7 +371,7 @@ section.skills article {
     flex-flow: column wrap;
 }
 
-section.skills aside {
+section.skills div.images {
     max-width: 400px;
     display: inline-flex;
     flex-flow: row wrap;
