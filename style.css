@@ -139,6 +139,8 @@ nav {
     display: flex;
     justify-content: center;
 
+    box-shadow: 0 2px 6px rgb(0 0 0 / 50%);
+
     background-color: #303036;
     color: #f1f2f9;
     text-align: center;
@@ -148,6 +150,7 @@ nav {
 
 /* --------------- Desktop --------------- */
 /* Navbar Button Styling */
+
 nav a { 
     font-size: medium; 
     font-weight: 500;
@@ -159,7 +162,7 @@ nav a {
     align-items: center;
     height: 50px;
 
-    color: #f1f2f9!important;
+    color: #f1f2f9 !important;
 }
 
 /* Styling of top left logo on desktop */
@@ -301,7 +304,7 @@ svg.svg {
     }
 }
 
-/* ----------------------------- Homepage ----------------------------- */
+/* --------------------------------------- Homepage ---------------------------------------- */
 
 .gallery {
     margin: 0px;
@@ -401,3 +404,6 @@ section.blog figure {
         margin: 5px;
     }
 }
+
+/* --------------------------------------- Resume ---------------------------------------- */
+
