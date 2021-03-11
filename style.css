@@ -62,7 +62,7 @@ section {
 .row-flex {
     display: flex;
     flex: 1 auto;
-    justify-content: space-evenly;
+    justify-content: center;
     align-content: center;
     flex-flow: row wrap;
 }
@@ -344,16 +344,18 @@ section.intro figcaption {
     align-items: center;
     text-align: left;
 }
+
 @media only screen and (max-width: 1024px) {
     section.intro {
         height: auto;
     }
 }
+
 /* ------- Skills ------- */
 
 section.skills article {
     max-width: 700px;
-    display: flex;
+    display: inline-flex;
     justify-content: space-evenly;
     align-items: left;
     flex-flow: column wrap;
@@ -361,7 +363,7 @@ section.skills article {
 
 section.skills aside {
     max-width: 400px;
-    display: flex;
+    display: inline-flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
     align-items: center;
