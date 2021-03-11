@@ -19,9 +19,7 @@ a:hover { text-decoration: none; color:#303036; }
 a:focus { text-decoration: none; color:#303036; }
 a:hover, a:active { text-decoration: none; color:#303036; }
 
-body {
-    background-color: #fffaff;
-}
+body {background-color: #f1f2f9;}
 
 h1, article, aside {
     margin: 5px;
@@ -43,6 +41,7 @@ h2 {
     font-weight: 500;
     border-bottom: 2px solid transparent;
     text-align: center !important;
+    padding-bottom: 5px;
 }
 
 .heading-link:hover {
@@ -141,7 +140,7 @@ nav {
     justify-content: center;
 
     background-color: #303036;
-    color: #fffaff;
+    color: #f1f2f9;
     text-align: center;
 
     z-index: 10;
@@ -160,7 +159,7 @@ nav a {
     align-items: center;
     height: 50px;
 
-    color: #fffaff!important;
+    color: #f1f2f9!important;
 }
 
 /* Styling of top left logo on desktop */
@@ -171,16 +170,11 @@ nav a {
     font-weight: 500;
 }
 
-/* Navbar Current Page Styling */
-.current-page {
-    color: #1a6cef!important;
-}
-
 /* Navbar Hover Styling */
 .highlight:hover {
-    background-color: #fffaff;
+    background-color: #f1f2f9;
     color: #303036 !important;
-    transition: all 0.5s;
+    transition: all 0.3s;
 }
 
 /* --------------- Mobile --------------- */
@@ -193,7 +187,7 @@ svg.menu-icon, svg.menu-icon path, svg.mail-icon {
     flex: 1 auto;
     justify-items: center;
     align-items: center;
-    fill: #fffaff;
+    fill: #f1f2f9;
     margin: 13px;
 }
 
@@ -283,7 +277,7 @@ footer {
     align-self: center;
     margin: 25px;
     font-size: 0.7em;
-    color: #fffaff;
+    color: #f1f2f9;
 }
 
 section.external-links {
@@ -292,7 +286,7 @@ section.external-links {
 }
 
 .svg path {
-    fill: #fffaff;
+    fill: #f1f2f9;
     z-index: 10;
 }
 
