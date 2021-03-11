@@ -194,28 +194,28 @@ a.dropdown {
 }
 
 /* Dropdown Menu Hover Behaviour */
-button.menu:hover > #burger {display: none;}
-button.menu:hover > #double-arrow {display: block;}
+button.menu:hover > #burger, button.menu:active > #burger {display: none;}
+button.menu:hover > #double-arrow, button.menu:active > #burger {display: block;}
 
-button.menu:hover ~ a.invisible {
+button.menu:hover ~ a.invisible, button.menu:active ~ a.invisible {
     visibility: visible;
     opacity: 100%;
     transition: opacity 1s;
 }
 
-button.menu:hover ~ a.d-1 {
+button.menu:hover ~ a.d-1, button.menu:active ~ a.d-1 {
     filter: brightness(110%);
     top: 50px;
     transition: top 0.5s;
 }
 
-button.menu:hover ~ a.d-2 {
+button.menu:hover ~ a.d-2, button.menu:active ~ a.d-2 {
     filter: brightness(120%);
     top: 100px;
     transition: top 0.5s;
 }
 
-button.menu:hover ~ a.d-3 {
+button.menu:hover ~ a.d-3, button.menu:active ~ a.d-3 {
     filter: brightness(130%);
     top: 150px;
     transition: top 0.5s;
