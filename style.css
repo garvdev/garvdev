@@ -214,16 +214,15 @@ input.check {
 /* Dropdown Menu Styling */
 a.dropdown {
     display: flex;
-    position: fixed;    
+    position: fixed !important;    
     background-color: #303036;
     width: 100vw;
     height: 50px;
     top: 48px;
-}
+}   
 
 /* Dropdown Menu Icon Behaviour */
 input.check:checked + label > #burger {display: none;}
-
 input.check:checked + label > #arrows {display: block;}
 
 /* Dropdown Menu Content Behaviour */
@@ -240,14 +239,21 @@ input.check:checked ~ a.d-2 {
     filter: brightness(120%);
     top: 100px;
     opacity: 100%;
-    transition: top 0.15s 0.15s, opacity 0.3s 0.2s;
+    transition: top 0.1s 0.15s, opacity 0.3s 0.15s;
 }
 
 input.check:checked ~ a.d-3 {
     filter: brightness(130%);
     top: 150px;
     opacity: 100%;
-    transition: top 0.2s 0.2s, opacity 0.3s 0.3s;
+    transition: top 0.1s 0.2s, opacity 0.3s 0.2s;
+}
+
+input.check:checked ~ a.d-4 {
+    filter: brightness(140%);
+    top: 200px;
+    opacity: 100%;
+    transition: top 0.1s 0.25s, opacity 0.3s 0.25s;
 }
 
 /* Mobile Responsive Behaviour */
