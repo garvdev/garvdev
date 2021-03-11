@@ -58,8 +58,7 @@ section {
     }
 }
 
-/* ------------- Class Styling ------------ */
-
+/* ------------------------------- Class Styling ------------------------------- */
 .row-flex {
     display: flex;
     flex: 1 auto;
@@ -145,7 +144,7 @@ nav button, nav a {
 }
 
 /* Styling of top left logo on desktop */
-label {
+.logo {
     flex: 1 auto;
     margin: 15px 0px;
     justify-content: center;
@@ -165,8 +164,12 @@ label {
 }
 
 /* --------------- Mobile --------------- */
-/* Mobile Icon Styling */
-.mobile svg, .mobile svg path {
+/* Hover functionality on mobile wouldn't allow the dropdown links to be clicked.
+The mobile menu dropdown button was written as a checkbox with a click-able label as a work-around.
+It's the most beautiful thing ever. https://stackoverflow.com/questions/6293588/how-to-create-a-checkbox-with-a-clickable-label */
+
+/* Menu and Contact Icon Styling */
+.mobile > svg, .mobile > svg path {
     flex: 1 auto;
     justify-items: center;
     align-items: center;
@@ -174,7 +177,12 @@ label {
     margin: 13px;
 }
 
-/* Mobile Icon Positioning */
+/* Menu Checkbox Visibility */
+input.check {
+    display: none;
+}
+
+/* Menu and Contact Icon Positioning */
 .mobile {
     flex: 0 auto;
     justify-content: center;
@@ -193,29 +201,35 @@ a.dropdown {
     top: 48px;
 }
 
-/* Dropdown Menu Hover Behaviour */
-button.menu:hover > #burger, button.menu:active > #burger {display: none;}
-button.menu:hover > #double-arrow, button.menu:active > #burger {display: block;}
+/* Dropdown Menu Icon Behaviour */
+input.check:checked + label > #burger {
+    display: none;
+}
 
-button.menu:hover ~ a.invisible, button.menu:active ~ a.invisible {
+input.check:checked + label > #arrows {
+    display: block;
+}
+
+/* Dropdown Menu Content Behaviour */
+input.check:checked ~ a {
     visibility: visible;
     opacity: 100%;
     transition: opacity 1s;
 }
 
-button.menu:hover ~ a.d-1, button.menu:active ~ a.d-1 {
+input.check:checked ~ .d-1 {
     filter: brightness(110%);
     top: 50px;
     transition: top 0.5s;
 }
 
-button.menu:hover ~ a.d-2, button.menu:active ~ a.d-2 {
+input.check:checked ~ .d-2 {
     filter: brightness(120%);
     top: 100px;
     transition: top 0.5s;
 }
 
-button.menu:hover ~ a.d-3, button.menu:active ~ a.d-3 {
+input.check:checked ~ .d-3 {
     filter: brightness(130%);
     top: 150px;
     transition: top 0.5s;
@@ -229,11 +243,11 @@ button.menu:hover ~ a.d-3, button.menu:active ~ a.d-3 {
     .noncurrent-page {
         display: none;
     }
-    .contact, label {
+    .contact, .logo {
         display: none;
     }
     div.dropdown {
-        display: block;
+        display: flex;
     }
     button.mail {
         display: block;
