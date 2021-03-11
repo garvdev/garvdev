@@ -6,7 +6,7 @@
 
     box-sizing: content-box;
 
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Inter,Arial,sans-serif;
     font-weight: 200;
 }
 
@@ -23,23 +23,31 @@ body {
     background-color: #fffaff;
 }
 
-h1, h2, p, article, aside {
+h1, article, aside {
     margin: 5px;
 }
 
 h1 {
     font-size: 1.5em;
     font-weight: 500;
+    margin: 10px;
 }
 
 h2 {
-    font-size: 1.2em;
-    font-weight: 500;
+    font-size: 1em;
+    font-weight: 400;
 }
 
-h3 {
-    font-size: 1.1em;
-    font-weight: 400;
+.heading-link {
+    font-size: 1.4em;
+    font-weight: 500;
+    border-bottom: 2px solid transparent;
+    text-align: center !important;
+}
+
+.heading-link:hover {
+    border-color: #303036;
+    transition: border-color 0.5s;
 }
 
 .buffer {
@@ -56,13 +64,27 @@ section {
     margin: 50px 0px;
 }
 
+img {
+    margin: 20px;
+}
+
+.captioned img {
+    margin: 0px;
+}
+
 @media only screen and (max-width: 1024px) {
     section {
-        margin: 5px 5px;
+        margin: 20px;
     }
+}
 
-    h2 {
-        text-align: center !important;
+@media only screen and (max-width: 480px) {
+    section {
+        margin: 20px 0px;
+    }
+    
+    img {
+        margin: 5px;
     }
 }
 
@@ -93,14 +115,6 @@ section {
 
 .text-center {
     text-align: center;
-}
-
-.left-margin {
-    margin-left: 20px;
-}
-
-.right-margin {
-    margin-right: 20px;
 }
 
 .curved {
@@ -211,18 +225,12 @@ a.dropdown {
 }
 
 /* Dropdown Menu Icon Behaviour */
-input.check:checked + label > #burger {
-    display: none;
-}
+input.check:checked + label > #burger {display: none;}
 
-input.check:checked + label > #arrows {
-    display: block;
-}
+input.check:checked + label > #arrows {display: block;}
 
 /* Dropdown Menu Content Behaviour */
-input.check:checked ~ a {
-    visibility: visible;
-}
+input.check:checked ~ a {visibility: visible;}
 
 input.check:checked ~ a.d-1 {
     filter: brightness(110%);
@@ -247,24 +255,12 @@ input.check:checked ~ a.d-3 {
 
 /* Mobile Responsive Behaviour */
 @media only screen and (max-width: 480px) {
-    .current-page {
-        width: 30%;
-    }
-    .noncurrent-page {
-        display: none;
-    }
-    .contact, .logo {
-        display: none;
-    }
-    div.dropdown {
-        display: flex;
-    }
-    div.mail {
-        display: block;
-    }
-    span.buffer {
-        display: none;
-    }
+    .current-page {width: 30%;}
+    .noncurrent-page {display: none;}
+    .contact, .logo {display: none;}
+    div.dropdown {display: flex;}
+    div.mail {display: block;}
+    span.buffer {display: none;}
 }
 
 /* ------------------------------ Footer ------------------------------ */
@@ -315,16 +311,8 @@ svg.svg {
 
 .gallery {
     margin: 0px;
-    display: inline-flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
 }
 
-.box-link {
-    
-    box-shadow: 2px 2px;
-}
 /* ------- Introduction ------- */
 
 section.intro {
@@ -337,7 +325,7 @@ section.intro figure {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    flex-flow: row wrap; 
+    flex-flow: row wrap;
 }
 
 section.intro img {
@@ -372,17 +360,16 @@ section.skills div.paragraph {
 }
 
 section.skills div.images {
-    max-width: 400px;
+    max-width: 500px;
     display: inline-flex;
     flex-flow: row wrap;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
 }
 
 section.skills .icons {
     max-height: 100px;
     max-width: 100px;
-    margin: 15px 15px;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -396,16 +383,12 @@ section.skills .icons {
 
 section.projects img {
     max-width: 300px;
-    margin: 20px;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 480px) {
     section.projects img {
         max-width: 100%;
         margin: 5px;
-    }
-    section.projects a {
-        margin-right: 0px;
     }
 }
 
@@ -422,8 +405,5 @@ section.blog figure {
     }
     section.blog figure {
         margin: 5px;
-    }
-    section.blog a {
-        margin-right: 0px;
     }
 }
