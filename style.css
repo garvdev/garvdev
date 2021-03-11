@@ -169,7 +169,7 @@ The mobile menu dropdown button was written as a checkbox with a click-able labe
 It's the most beautiful thing ever. https://stackoverflow.com/questions/6293588/how-to-create-a-checkbox-with-a-clickable-label */
 
 /* Menu and Contact Icon Styling */
-.mobile > svg, .mobile > svg path {
+svg.menu-icon, svg.menu-icon path, svg.mail-icon {
     flex: 1 auto;
     justify-items: center;
     align-items: center;
@@ -179,6 +179,9 @@ It's the most beautiful thing ever. https://stackoverflow.com/questions/6293588/
 
 /* Menu Checkbox Visibility */
 input.check {
+    display: none;
+}
+#arrows {
     display: none;
 }
 
@@ -213,26 +216,27 @@ input.check:checked + label > #arrows {
 /* Dropdown Menu Content Behaviour */
 input.check:checked ~ a {
     visibility: visible;
-    opacity: 100%;
-    transition: opacity 1s;
 }
 
-input.check:checked ~ .d-1 {
+input.check:checked ~ a.d-1 {
     filter: brightness(110%);
     top: 50px;
-    transition: top 0.5s;
+    opacity: 100%;
+    transition: top 0.1s 0.1s, opacity 0.3s 0.1s;
 }
 
-input.check:checked ~ .d-2 {
+input.check:checked ~ a.d-2 {
     filter: brightness(120%);
     top: 100px;
-    transition: top 0.5s;
+    opacity: 100%;
+    transition: top 0.15s 0.15s, opacity 0.3s 0.2s;
 }
 
-input.check:checked ~ .d-3 {
+input.check:checked ~ a.d-3 {
     filter: brightness(130%);
     top: 150px;
-    transition: top 0.5s;
+    opacity: 100%;
+    transition: top 0.2s 0.2s, opacity 0.3s 0.3s;
 }
 
 /* Mobile Responsive Behaviour */
@@ -249,7 +253,7 @@ input.check:checked ~ .d-3 {
     div.dropdown {
         display: flex;
     }
-    button.mail {
+    div.mail {
         display: block;
     }
     span.buffer {
