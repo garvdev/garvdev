@@ -462,3 +462,13 @@ a.download {
 img.project-large {
     max-width: 400px;
 }
+
+/* --------------------------------------- Projects ---------------------------------------- */
+section.blog img, section.blog p {
+    max-width: 1000px;
+    align-self: center;
+}
+
+section.blog .title {
+    justify-content: space-between;
+}
