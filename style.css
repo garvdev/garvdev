@@ -81,19 +81,32 @@ img {
     margin: 0px;
 }
 
+figure {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+figcaption {
+    display: inline-flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
 @media only screen and (max-width: 1024px) {
     section {
         margin: 20px;
+    }
+    img {
+        width: 100%;
     }
 }
 
 @media only screen and (max-width: 480px) {
     section {
         margin: 20px 0px;
-    }
-    
-    img {
-        margin: 5px;
     }
 }
 
@@ -157,6 +170,10 @@ img {
 
 .split-para {
     max-width: 700px;
+}
+
+.reversed {
+    flex-wrap: wrap-reverse;
 }
 
 /* ------------------------ Navigation Bar ----------------------- */
@@ -356,25 +373,10 @@ section.intro {
     margin: 0px;
 }
 
-section.intro figure {
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-flow: row wrap;
-}
-
 section.intro img {
     margin: 5px 5px;
     max-width: 25em;
     align-items: center;
-}
-
-section.intro figcaption {
-    display: inline-flex;
-    flex-flow: column wrap;
-    align-items: center;
-    text-align: left;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -409,7 +411,7 @@ section.skills .icons {
     }
 }
 
-/* ------- Projects ------- */
+/* ------- Projects Gallery ------- */
 
 section.projects img {
     max-width: 300px;
@@ -423,7 +425,7 @@ section.projects img {
     }
 }
 
-/* ------- Blog ------- */
+/* ------- Blog Gallery ------- */
 
 section.blog figure {
     max-width: 400px;
@@ -440,8 +442,13 @@ section.blog figure {
 }
 
 /* --------------------------------------- Resume ---------------------------------------- */
-/* Heading */
 a.download {
     display: inline-flex;
     align-items: center;
+}
+
+
+/* --------------------------------------- Projects ---------------------------------------- */
+img.project-large {
+    max-width: 400px;
 }
