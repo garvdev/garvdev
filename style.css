@@ -334,7 +334,6 @@ section.intro figure {
 section.intro img {
     margin: 5px 5px;
     max-width: 25em;
-    display: inline-flex;
     align-items: center;
 }
 
@@ -356,10 +355,7 @@ section.intro figcaption {
 
 section.skills div.paragraph {
     max-width: 700px;
-    display: inline-flex;
-    justify-content: space-evenly;
-    align-items: left;
-    flex-flow: column wrap;
+    align-self: center;
 }
 
 section.skills div.images {
@@ -386,6 +382,7 @@ section.skills .icons {
 
 section.projects img {
     max-width: 300px;
+    flex: 1 1 auto;
 }
 
 @media only screen and (max-width: 480px) {
