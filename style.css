@@ -200,6 +200,10 @@ nav {
     z-index: 10;
 }
 
+nav div {
+    margin: 0px;
+}
+
 /* --------------- Desktop --------------- */
 /* Navbar Button Styling */
 
