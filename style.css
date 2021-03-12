@@ -331,7 +331,7 @@ section.external-links {
     z-index: 10;
 }
 
-svg.svg {
+.svg {
     width: 35px;
     margin: 2.5px;
 }
