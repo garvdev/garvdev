@@ -36,7 +36,7 @@ h1 {
 
 h2 {
     text-align: center;
-    font-size: 1em;
+    font-size: 1.2em;
     font-weight: 400;
 }
 
@@ -77,10 +77,6 @@ img {
     margin: 20px;
 }
 
-.captioned img {
-    margin: 0px;
-}
-
 figure {
     width: 100%;
     display: flex;
@@ -101,6 +97,7 @@ figcaption {
     }
     img {
         width: 100%;
+        margin: 5px;
     }
 }
 
@@ -141,14 +138,17 @@ figcaption {
 
 .flex-left {
     justify-content: flex-start;
+    align-self: center;
 }
 
 .flex-right {
     justify-content: flex-end;
+    align-self: center;
 }
 
 .flex-center {
     justify-content: center;
+    align-self: center;
 }
 
 .curved {
@@ -387,10 +387,6 @@ section.intro img {
 
 /* ------- Skills ------- */
 
-section.skills div.paragraph {
-    align-self: center;
-}
-
 section.skills div.images {
     max-width: 500px;
     display: inline-flex;
@@ -427,9 +423,16 @@ section.projects img {
 
 /* ------- Blog Gallery ------- */
 
-section.blog figure {
+section.blog div {
+    display: inline-flex;
+    flex-flow: column wrap;
+    justify-items: center;
     max-width: 400px;
     margin: 20px;
+}
+
+section.blog img {
+    margin: 0px;
 }
 
 @media only screen and (max-width: 480px) {
@@ -446,7 +449,6 @@ a.download {
     display: inline-flex;
     align-items: center;
 }
-
 
 /* --------------------------------------- Projects ---------------------------------------- */
 img.project-large {
