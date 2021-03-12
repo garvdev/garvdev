@@ -19,19 +19,29 @@ a:hover { text-decoration: none; color:#303036; }
 a:focus { text-decoration: none; color:#303036; }
 a:hover, a:active { text-decoration: none; color:#303036; }
 
-body {background-color: #f1f2f9;}
+body {
+    background-color: #f1f2f9;
+}
 
-h1, article, aside {
+h1, article {
     margin: 5px;
 }
 
 h1 {
+    text-align: center;
     font-size: 1.5em;
     font-weight: 500;
     margin: 10px;
 }
 
 h2 {
+    text-align: center;
+    font-size: 1em;
+    font-weight: 400;
+}
+
+h3 {
+    text-align: center;
     font-size: 1em;
     font-weight: 400;
 }
@@ -116,6 +126,18 @@ img {
     text-align: center;
 }
 
+.flex-left {
+    justify-content: flex-start;
+}
+
+.flex-right {
+    justify-content: flex-end;
+}
+
+.flex-center {
+    justify-content: center;
+}
+
 .curved {
     border-radius: 10px;
 }
@@ -129,12 +151,21 @@ img {
     opacity: 0%;
 }
 
+.full-para {
+    max-width: 1400px;
+}
+
+.split-para {
+    max-width: 700px;
+}
+
 /* ------------------------ Navigation Bar ----------------------- */
 /* Main Navbar Styling */
 nav {
     position: fixed;
     width: 100vw;
     height: 50px;
+    top: 0px;
 
     display: flex;
     justify-content: center;
@@ -181,9 +212,10 @@ nav a {
 }
 
 /* --------------- Mobile --------------- */
-/* Hover functionality on mobile wouldn't allow the dropdown links to be clicked.
-The mobile menu dropdown button was written as a checkbox with a click-able label as a work-around.
-It's the most beautiful thing ever. https://stackoverflow.com/questions/6293588/how-to-create-a-checkbox-with-a-clickable-label */
+/* Hover functionality on mobile wouldn't allow the 
+dropdown links to be clicked. The mobile menu dropdown 
+button was written as a checkbox with a click-able label 
+as a work-around. */
 
 /* Menu and Contact Icon Styling */
 svg.menu-icon, svg.menu-icon path, svg.mail-icon {
@@ -338,7 +370,6 @@ section.intro img {
 }
 
 section.intro figcaption {
-    max-width: 700px;
     display: inline-flex;
     flex-flow: column wrap;
     align-items: center;
@@ -354,7 +385,6 @@ section.intro figcaption {
 /* ------- Skills ------- */
 
 section.skills div.paragraph {
-    max-width: 700px;
     align-self: center;
 }
 
@@ -409,4 +439,8 @@ section.blog figure {
 }
 
 /* --------------------------------------- Resume ---------------------------------------- */
-
+/* Heading */
+a.download {
+    display: inline-flex;
+    align-items: center;
+}
