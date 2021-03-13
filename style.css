@@ -402,12 +402,6 @@ section.intro img {
     align-items: center;
 }
 
-@media only screen and (max-width: 1024px) {
-    section.intro {
-        height: auto;
-    }
-}
-
 /* ------- Skills ------- */
 
 section.skills div.images {
@@ -426,7 +420,6 @@ section.skills .icons {
 @media only screen and (max-width: 1024px) {
     section.skills img {
         width: 100%;
-        height: auto;
     }
 }
 
@@ -434,14 +427,12 @@ section.skills .icons {
 
 section.projects img {
     max-width: 300px;
-    height: auto;
     flex: 1 auto;
 }
 
 @media only screen and (max-width: 480px) {
     section.projects img {
         max-width: 100%;
-        height: auto;
         margin: 5px;
     }
 }
