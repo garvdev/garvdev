@@ -468,6 +468,10 @@ img.project-large {
     max-width: 400px;
 }
 
+#projects figure {
+    margin: 10px 0px 10px 0px;
+}
+
 /* --------------------------------------- Blog ---------------------------------------- */
 #blog article * {
     max-width: 1000px;
