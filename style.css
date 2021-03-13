@@ -347,7 +347,7 @@ footer {
     color: #f1f2f9;
 }
 
-section.external-links {
+.external-links {
     align-self: center;
     margin: 25px;
 }
@@ -463,7 +463,7 @@ img.project-large {
     max-width: 400px;
 }
 
-/* --------------------------------------- Projects ---------------------------------------- */
+/* --------------------------------------- Blog ---------------------------------------- */
 section.blog img, section.blog p {
     max-width: 1000px;
     align-self: center;
@@ -471,4 +471,38 @@ section.blog img, section.blog p {
 
 section.blog .title {
     justify-content: space-between;
+}
+
+/* --------------------------------------- Contact ---------------------------------------- */
+section.contact {
+    height: calc(100vh - 150px);
+    margin: 0px;
+
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+section.contact .links {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+section.contact .svg {
+    margin: 10px;
+}
+
+section.contact .svg path {
+    fill: #303036;
+}
+
+section.contact a {
+    display: inline-flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+#contact footer {
+    margin: 0px;
 }
