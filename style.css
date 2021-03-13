@@ -387,10 +387,9 @@ section.attributions * {
 
 .gallery {
     margin: 0px;
-    display: flex;
+    display: inline-flex;
     flex: 0 auto;
     justify-content: center;
-    align-content: center;
     flex-flow: row wrap;
 }
 
