@@ -50,6 +50,12 @@ h3 {
     font-weight: 400;
 }
 
+h4 {
+    text-align: center;
+    font-size: 0.8em;
+    font-weight: 400;
+}
+
 .heading-link {
     border-bottom: 2px solid transparent;
     text-align: center !important;
@@ -437,7 +443,7 @@ section.projects img {
 
 @media only screen and (max-width: 480px) {
     section.projects img {
-        max-width: 100%;
+        max-width: 100%;    
     }
 }
 
@@ -474,6 +480,14 @@ section.blog img {
     flex: 0 auto;
 }
 
+#resume p.split-para {
+    margin: 0px 10px;
+}
+
+#resume div.row-flex {
+    justify-content: space-between;
+}
+
 div.download {
     display: flex;
     align-items: center;
@@ -482,6 +496,16 @@ div.download {
 
 .download svg {
     margin: 10px;
+}
+
+@media only screen and (max-width:1024px) {
+    #resume div.row-flex {
+        justify-content: center;
+    }
+
+    #resume p.split-para {
+        text-align: center;
+    }
 }
 
 /* --------------------------------------- Projects ---------------------------------------- */
