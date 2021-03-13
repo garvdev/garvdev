@@ -428,7 +428,7 @@ section.skills .icons {
 
 section.projects img {
     max-width: 300px;
-    flex: 1 1 auto;
+    flex: 0 auto;
 }
 
 @media only screen and (max-width: 480px) {
