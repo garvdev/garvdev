@@ -69,6 +69,11 @@ main {
     position: relative;
     top: 50px;
     margin: 0px 5px 0px 5px;
+
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center; 
+    justify-content: center;
 }
 
 section {
@@ -384,7 +389,6 @@ section.attributions * {
 }
 
 /* --------------------------------------- Homepage ---------------------------------------- */
-
 .gallery {
     margin: 0px;
     display: inline-flex;
@@ -394,20 +398,19 @@ section.attributions * {
 }
 
 /* ------- Introduction ------- */
-
-section.intro {
-    height: calc(100% - 60px); Account for header offset and margins
-    margin: 0px;
-}
-
 section.intro img {
-    margin: 0px 50px;
+    margin: 50px;
     max-width: 25em;
     align-items: center;
 }
 
-/* ------- Skills ------- */
+@media only screen and (max-width: 1024px) {
+    section.intro img {
+        margin: 0px;
+    }
+}
 
+/* ------- Skills ------- */
 section.skills div {
     margin: 0px;
 }
@@ -425,14 +428,7 @@ section.skills .icons {
     max-width: 100px;
 }
 
-@media only screen and (max-width: 1024px) {
-    section.skills img {
-        width: 100%;
-    }
-}
-
 /* ------- Projects Gallery ------- */
-
 section.projects img {
     max-width: 400px;
 }
@@ -464,11 +460,6 @@ section.blog img {
 #resume main {
     min-height: calc(100vh - 150px);
     margin: 0px;
-
-    display: flex;
-    flex-flow: column wrap;
-    align-items: center; 
-    justify-content: center;
 }
 
 #resume section {
