@@ -458,9 +458,24 @@ section.blog img {
 }
 
 /* --------------------------------------- Resume ---------------------------------------- */
-a.download {
-    display: inline-flex;
+section.resume {
+    height: calc(100vh - 150px);
+    margin: 0px;
+
+    display: flex;
+    flex-flow: column wrap;
     align-items: center;
+    justify-content: center;
+}
+
+section.download {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.download svg {
+    margin: 10px;
 }
 
 /* --------------------------------------- Projects ---------------------------------------- */
