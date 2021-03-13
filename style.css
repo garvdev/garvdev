@@ -434,13 +434,15 @@ section.skills .icons {
 
 section.projects img {
     max-width: 300px;
-    flex: 0 auto;
+    height: auto;
+    flex: 1 auto;
 }
 
 @media only screen and (max-width: 480px) {
     section.projects img {
         max-width: 100%;
         height: auto;
+        margin: 5px;
     }
 }
 
