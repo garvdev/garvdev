@@ -435,6 +435,12 @@ section.projects img {
     height: auto;
 }
 
+@media only screen and (max-width: 480px) {
+    section.projects img {
+        max-width: 100%;
+    }
+}
+
 /* ------- Blog Gallery ------- */
 section.blog .captioned {
     display: inline-flex;
