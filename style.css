@@ -387,6 +387,11 @@ section.attributions * {
 
 .gallery {
     margin: 0px;
+    display: flex;
+    flex: 0 auto;
+    justify-content: center;
+    align-content: center;
+    flex-flow: row wrap;
 }
 
 /* ------- Introduction ------- */
@@ -431,17 +436,16 @@ section.skills .icons {
 
 section.projects img {
     max-width: 400px;
-    flex: 1 auto;
+    flex: 0 auto;
 }
 
 @media only screen and (max-width: 480px) {
     section.projects img {
-        margin: 5px;
+        flex: 1 auto;
     }
 }
 
 /* ------- Blog Gallery ------- */
-
 section.blog .captioned {
     display: inline-flex;
     flex-flow: column wrap;
@@ -455,8 +459,12 @@ section.blog img {
 }
 
 @media only screen and (max-width: 480px) {
-    section.blog div {
+    section.blog .captioned {
         margin: 5px;
+    }
+
+    section.blog div {
+        margin: 0px;
     }
 }
 
