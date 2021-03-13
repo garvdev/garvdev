@@ -429,10 +429,10 @@ section.skills .icons {
 }
 
 /* ------- Projects Gallery ------- */
-@media only screen and (max-width: 480px) {
-    section.projects img {
-        max-width: 400px;
-    }
+section.projects img {
+    max-width: 400px;
+    width: auto;
+    height: auto;
 }
 
 /* ------- Blog Gallery ------- */
