@@ -426,6 +426,12 @@ section.skills .icons {
     max-width: 100px;
 }
 
+@media only screen and (max-width: 1024px) {
+    section.skills p {
+        text-align: center;
+    }
+}
+
 /* ------- Projects Gallery ------- */
 .gallery {
     margin: 0px;
@@ -437,7 +443,7 @@ section.skills .icons {
 }
 
 section.projects img {
-    max-width: 400px;
+    max-width: 300px;
     width: auto;
     height: auto;
 }
@@ -502,8 +508,6 @@ section.blog img {
         margin: 0px;
     }
 }
-
-
 
 /* --------------------------------------- Resume ---------------------------------------- */
 #resume main {
