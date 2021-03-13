@@ -414,7 +414,7 @@ section.skills .icons {
 }
 
 @media only screen and (max-width: 1024px) {
-    section.intro img {
+    section.skills img {
         width: 100%;
         height: auto;
     }
@@ -429,8 +429,8 @@ section.projects img {
 
 @media only screen and (max-width: 480px) {
     section.projects img {
-        max-width: 100vw;
-        margin: 5px;
+        max-width: 100%;
+        height: auto;
     }
 }
 
