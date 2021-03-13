@@ -312,10 +312,17 @@ input.check:checked ~ a.d-4 {
     transition: top 0.1s 0.25s, opacity 0.3s 0.25s;
 }
 
+input.check:checked ~ a.d-5 {
+    filter: brightness(150%);
+    top: 250px;
+    opacity: 100%;
+    transition: top 0.1s 0.3s, opacity 0.3s 0.3s;
+}
+
 /* Mobile Responsive Behaviour */
 @media only screen and (max-width: 480px) {
-    .current-page {width: 30%;}
-    .noncurrent-page {display: none;}
+    .mobile-nav-button {display: flex; width: 30%;}
+    .nav-button {display: none;}
     .contact, .logo {display: none;}
     div.dropdown {display: flex;}
     div.mail {display: block;}
