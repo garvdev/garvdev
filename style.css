@@ -103,6 +103,7 @@ figcaption {
         margin: 20px;
     }
     img {
+        width: 100%;
         margin: 5px;
     }
 }
@@ -430,6 +431,12 @@ section.skills .icons {
 /* ------- Projects Gallery ------- */
 section.projects img {
     max-width: 400px;
+}
+
+@media only screen and (max-width: 480px) {
+    section.projects img {
+        width: auto;
+    }
 }
 
 /* ------- Blog Gallery ------- */
