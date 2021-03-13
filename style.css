@@ -441,9 +441,28 @@ section.projects img {
     height: auto;
 }
 
+span.project-name {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+
+    color:#f1f2f9;
+    font-weight: 450;
+}
+
+section.projects a:hover > img {
+    filter: brightness(50%);
+    transition: filter 0.3s;
+}
+
+section.projects a:hover > span {
+    display: block;
+}
+
 @media only screen and (max-width: 480px) {
     section.projects img {
-        max-width: 100%;    
+        max-width: calc(100% - 10px);    
     }
 }
 
