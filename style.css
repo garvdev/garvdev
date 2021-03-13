@@ -435,13 +435,6 @@ section.skills .icons {
 
 section.projects img {
     max-width: 400px;
-    flex: 0 auto;
-}
-
-@media only screen and (max-width: 480px) {
-    section.projects img {
-        flex: 1 auto;
-    }
 }
 
 /* ------- Blog Gallery ------- */
