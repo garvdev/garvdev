@@ -349,11 +349,17 @@ footer {
     align-items: center;
 }
 
-.attributions {
+section.attributions {
     align-self: center;
     margin: 25px;
-    font-size: 0.7em;
+}
+
+section.attributions * {
     color: #f1f2f9;
+}
+
+.attributions p, .attributions a {
+    font-size: 8px;
 }
 
 .external-links {
