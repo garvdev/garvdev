@@ -392,7 +392,7 @@ section.attributions * {
 /* ------- Introduction ------- */
 
 section.intro {
-    height: calc(100vh - 60px); /* Account for header offset and margins */
+    height: calc(100% - 60px); Account for header offset and margins
     margin: 0px;
 }
 
@@ -403,6 +403,10 @@ section.intro img {
 }
 
 /* ------- Skills ------- */
+
+section.skills div {
+    margin: 0px;
+}
 
 section.skills div.images {
     max-width: 500px;
