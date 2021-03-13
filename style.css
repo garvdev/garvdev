@@ -1,4 +1,4 @@
-/* Global Declarations */
+/* ---------------------------- Global Declarations ----------------------------*/
 * {
     margin: 0px;
     padding: 0px;
@@ -10,8 +10,7 @@
     font-weight: 200;
 }
 
-/* ------------------------------- Global Styling --------------------------- */
-
+/* ------------------------------- Global Element Styling --------------------------- */
 a { text-decoration: none; color:#303036; }
 
 a:visited { text-decoration: none; color:#303036; }
@@ -104,6 +103,7 @@ figcaption {
     align-items: center;
 }
 
+/* Responsive Global Elements */
 @media only screen and (max-width: 1024px) {
     section {
         margin: 20px;
@@ -120,7 +120,7 @@ figcaption {
     }
 }
 
-/* ------------------------------- Class Styling ------------------------------- */
+/* ------------------------------- Class Element Styling ------------------------------- */
 .row-flex {
     display: flex;
     flex: 1 auto;
@@ -193,7 +193,7 @@ figcaption {
     clear: both;
 }
 
-/* ------------------------ Navigation Bar ----------------------- */
+/* --------------------------------- Navigation Bar --------------------------------- */
 /* Main Navbar Styling */
 nav {
     position: fixed;
@@ -344,7 +344,7 @@ input.check:checked ~ a.d-5 {
     span.buffer {display: none;}
 }
 
-/* ------------------------------ Footer ------------------------------ */
+/* --------------------------------- Footer --------------------------------- */
 
 footer {
     margin-top: 75px;
@@ -388,13 +388,14 @@ section.attributions * {
     margin: 2.5px;
 }
 
+/* Responsive */
 @media only screen and (max-width: 1024px) {
     footer {
         justify-content: center;
     }
 }
 
-/* --------------------------------------- Homepage ---------------------------------------- */
+/* --------------------------------- Homepage --------------------------------- */
 /* ------- Introduction ------- */
 section.intro img {
     margin: 50px;
@@ -402,13 +403,14 @@ section.intro img {
     align-items: center;
 }
 
+/* Responsive */
 @media only screen and (max-width: 1024px) {
     section.intro img {
         margin: 0px;
     }
 }
 
-/* ------- Skills ------- */
+/* ---------- Skills ---------- */
 section.skills div {
     margin: 0px;
 }
@@ -426,13 +428,14 @@ section.skills .icons {
     max-width: 100px;
 }
 
+/* Responsive */
 @media only screen and (max-width: 1024px) {
     section.skills p {
         text-align: center;
     }
 }
 
-/* ------- Projects Gallery ------- */
+/* ----- Projects Gallery ----- */
 .gallery {
     margin: 0px;
     display: inline-flex;
@@ -475,6 +478,7 @@ section.projects img {
     opacity: 100%;
 }
 
+/* Responsive */
 @media only screen and (max-width: 480px) {
     section.projects img {
         max-width: calc(100% - 10px);    
@@ -499,6 +503,7 @@ section.blog img {
     transition: box-shadow 0.3s;
 }
 
+/* Responsive */
 @media only screen and (max-width: 480px) {
     section.blog .captioned {
         margin: 5px;
@@ -509,7 +514,7 @@ section.blog img {
     }
 }
 
-/* --------------------------------------- Resume ---------------------------------------- */
+/* --------------------------------- Resume --------------------------------- */
 #resume main {
     min-height: calc(100vh - 150px);
     margin: 0px;
@@ -537,6 +542,7 @@ div.download {
     margin: 10px;
 }
 
+/* Responsive */
 @media only screen and (max-width:1024px) {
     #resume div.row-flex {
         justify-content: center;
@@ -547,7 +553,7 @@ div.download {
     }
 }
 
-/* --------------------------------------- Projects ---------------------------------------- */
+/* --------------------------------- Projects --------------------------------- */
 img.project-large {
     max-width: 400px;
 }
@@ -556,7 +562,7 @@ img.project-large {
     margin: 10px 0px 10px 0px;
 }
 
-/* --------------------------------------- Blog ---------------------------------------- */
+/* --------------------------------- Blog --------------------------------- */
 #blog article * {
     max-width: 1000px;
     align-self: center;
@@ -569,7 +575,7 @@ img.project-large {
     align-self: center;
 }
 
-/* --------------------------------------- Contact ---------------------------------------- */
+/* --------------------------------- Contact --------------------------------- */
 section.contact {
     height: calc(100vh - 150px);
     margin: 0px;
