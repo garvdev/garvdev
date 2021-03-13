@@ -82,7 +82,7 @@ img {
 figure {
     width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center; 
     align-items: center;
     flex-flow: row wrap;
 }
@@ -397,7 +397,7 @@ section.intro {
 }
 
 section.intro img {
-    margin: 5px 5px;
+    margin: 0px 50px;
     max-width: 25em;
     align-items: center;
 }
