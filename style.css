@@ -17,7 +17,7 @@ a { text-decoration: none; color:#303036; }
 a:visited { text-decoration: none; color:#303036; }
 a:hover { text-decoration: none; color:#303036; }
 a:focus { text-decoration: none; color:#303036; }
-a:hover, a:active { text-decoration: none; color:#303036; }
+a:active { text-decoration: none; color:#303036; }
 
 body {
     background-color: #f1f2f9;
@@ -395,14 +395,6 @@ section.attributions * {
 }
 
 /* --------------------------------------- Homepage ---------------------------------------- */
-.gallery {
-    margin: 0px;
-    display: inline-flex;
-    flex: 0 auto;
-    justify-content: center;
-    flex-flow: row wrap;
-}
-
 /* ------- Introduction ------- */
 section.intro img {
     margin: 50px;
@@ -435,29 +427,46 @@ section.skills .icons {
 }
 
 /* ------- Projects Gallery ------- */
+.gallery {
+    margin: 0px;
+    display: inline-flex;
+    flex: 0 auto;
+    justify-content: center;
+    flex-flow: row wrap;
+    text-align: center;
+}
+
 section.projects img {
     max-width: 400px;
     width: auto;
     height: auto;
 }
 
-span.project-name {
+.project-link {
+    position: relative;
+}
+
+.project-name {
+    position: absolute;
     top: 50%;
     left: 50%;
-    position: absolute;
     transform: translate(-50%, -50%);
 
     color:#f1f2f9;
     font-weight: 450;
+    z-index: 10;
+
+    visibility: hidden;
 }
 
-section.projects a:hover > img {
+.project-link:hover > img {
     filter: brightness(50%);
     transition: filter 0.3s;
 }
 
-section.projects a:hover > span {
-    display: block;
+.project-link:hover > span {
+    visibility: visible;
+    opacity: 100%;
 }
 
 @media only screen and (max-width: 480px) {
