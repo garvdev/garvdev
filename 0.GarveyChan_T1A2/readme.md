@@ -22,7 +22,7 @@ Since the initial draft was presented halfway through Week 3, there have been se
 
 These change decisions were made due to time restrictions during implementation, diminishing returns on effort, and further UI/UX considerations. Forgoing JavaScript for this assignment was a self-imposed rule in order to force myself to seek out and explore the full potential of HTML/CSS to entrench my understanding of its capabilities.
 
-There is also plenty of scope for **code refactoring**. This is because a bulk of the website was planned and built before I fully understood the complexities of responsive design elements and the interactions between box models and flexboxes. A large number of the final design tweaks have been applied as 'band-aid solutions' rather than through refinement of the underlying styling roots. Given more time, I would rebuild the website from the ground up using **Grids**, develop better **cascading hiearchies** to align with more **structured and distinct HTML components**, implement better **naming conventions** and aim for a more modern 'flat' **aesthetic**.
+There is also plenty of scope for **code refactoring**. This is because a bulk of the website was planned and built before I fully understood the complexities of responsive design elements and the interactions between box models and flexboxes. A large number of the final design tweaks have been applied as 'band-aid solutions' rather than through refinement of the underlying styling roots. Given more time, I would rebuild the website from the ground up using **Grids**, develop better **cascading hierarchies** to align with more **structured and distinct HTML components**, implement better **naming conventions** and aim for a more modern 'flat' **aesthetic**.
 
 ### Functionality / Features
 
@@ -35,7 +35,7 @@ The website contains several key components styled around a common theme and uti
 - It has been designed as a fixed flexbox with several components:
     - Logo (top left) - This takes the user back to the homepage.
     - Navigation Buttons (center) - Links to each page on the website. The button of the current page takes the user back to the top. Hovering over these buttons highlights them.
-    - *Buffers* - Invisible elements with different flex proprties separating the edge and middle buttons. These grow/shrink at different rates to the rest of the navigation bar.
+    - *Buffers* - Invisible elements with different flex properties separating the edge and middle buttons. These grow/shrink at different rates to the rest of the navigation bar.
     - Contact Button (top right) - This takes the user to the contact page.
 - The header has been set to stand out with a *box-shadow* and a *z-index* of 10 to keep it above all the other content.
 
