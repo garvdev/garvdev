@@ -1,0 +1,693 @@
+commit 21991acedb4886a6ffd7ae0a3494416fde95951a
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Sun Mar 14 12:43:16 2021 +1100
+
+    Spellcheck README
+
+commit 7587df8315e6b501356cdddb327691d7e8f0b6f2
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Sun Mar 14 12:43:06 2021 +1100
+
+    Add features and functionality to README
+
+commit 4c4c13709c8c4db3030f7d7277cef2e6f18d6573
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Sun Mar 14 11:27:08 2021 +1100
+
+    Add wireframe screenshots and update README
+
+commit 355308080edb98bfcc4a765b1c0ce826f3ea9665
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Sun Mar 14 11:00:11 2021 +1100
+
+    Add screenshots to directory, write description/purpose of website in README
+
+commit 4c2f1146bab63344d71db2413918a54afd2937ea
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Sun Mar 14 10:17:54 2021 +1100
+
+    Add further comments to navigation bar
+
+commit 5f9f0dace02e37835286108807e1ead714f44f72
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Sun Mar 14 10:01:39 2021 +1100
+
+    Fix W3C markup validation errors
+
+commit 493a05b4b80a77eb6723c954db10816c250833d2
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Sun Mar 14 09:54:38 2021 +1100
+
+    Implement Subresource Integrity across all HTML files with SHA-512 hash
+
+commit b56c6acf47191c240c27e564c03464a072531c0b
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Sun Mar 14 09:43:41 2021 +1100
+
+    Remove extra dashes in comments
+
+commit 7d7067c8aea0f903f7f6642008de5c55b06660a0
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Sun Mar 14 09:36:45 2021 +1100
+
+    Add comments to stylesheet
+
+commit 05f01bd92b67ecad25ad1cf6ca18c3b71cb4cb2a
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Sun Mar 14 09:31:51 2021 +1100
+
+    Add comments to HTML
+
+commit 069ba490184480cbb77c07fa5eebd1ff28569e94
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Sun Mar 14 09:19:00 2021 +1100
+
+    Fix w3c markup validation errors
+
+commit 7673f8467aa5c38fd91245f8a66ecde9d598cf74
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Sun Mar 14 09:17:23 2021 +1100
+
+    Adjust project gallery size and skills paragraph text alignment
+
+commit 38d943214ba2257810979b60456eb1bc57e72385
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Sun Mar 14 09:00:57 2021 +1100
+
+    Add blog gallery hover functionality
+
+commit 0a26d50351b14ebd21b5fab7a11a468ce488a5b2
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Sun Mar 14 08:52:10 2021 +1100
+
+    Add hover functionality to homepage project links
+
+commit 44927c5a500b852fdb71b016a8ab00adf20b3d84
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Sun Mar 14 08:26:43 2021 +1100
+
+    Update landing page content and adjust project gallery margin
+
+commit 125f66817b3aae8e92f0dd1cd7b97131980287b9
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Sun Mar 14 02:23:20 2021 +1100
+
+    Add content to index and resume pages
+
+commit 8daac7b5224420164d23bc09fdb4c1c01a9d25ad
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Sat Mar 13 21:21:46 2021 +1100
+
+    Redeploy to test on mobile browser
+
+commit 0676637f0ee3a9e4600aea6b4aed680f725176cd
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Sat Mar 13 21:15:53 2021 +1100
+
+    Redeploy to test on mobile browser
+
+commit d2007bd076a11b474e41ceaaa76d975bc583b78e
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Sat Mar 13 21:11:17 2021 +1100
+
+    Redeploy to test on mobile browser
+
+commit 1dc5c3c4d9fc939f704e61c73dcc963413d6786f
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Sat Mar 13 21:04:07 2021 +1100
+
+    Adjust global image width
+
+commit 76679d5cc9b36ccdabb078b7e426320b6096a6f1
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Sat Mar 13 21:00:23 2021 +1100
+
+    Remove img width constraint
+
+commit 4e84b9c30dde8462df76db4ca67b4269800a5eac
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Sat Mar 13 20:53:32 2021 +1100
+
+    Remove whitespace from index
+
+commit e464501d991a3572a5179181efde78aaf6651fb8
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Sat Mar 13 20:45:01 2021 +1100
+
+    Refactor layout of homepage
+
+commit 85c3da307e3283e87bd74461b2f945906f1b7200
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Sat Mar 13 20:35:26 2021 +1100
+
+    Redeploy to test on mobile browser
+
+commit 37936b3ceecc127310a0f0e3a647626717df094b
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Sat Mar 13 20:31:54 2021 +1100
+
+    Adjust project gallery flex behaviour
+
+commit db132ade50a63bd15c0b95f699777901eaef7e9d
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Sat Mar 13 19:05:14 2021 +1100
+
+    Adjust blog gallery margins
+
+commit bb94dfe5f0ef1b947f8f7ea5f3939759213d20cc
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Sat Mar 13 18:45:43 2021 +1100
+
+    Adjust homepage gallery responsive margins
+
+commit 2cc740fd140a598953bee759f4afbd5092983a73
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Sat Mar 13 18:32:28 2021 +1100
+
+    Adjust intro image margin and flex positioning
+
+commit 9f7dc601ce3c1dbea0071a869927a53ccda03fe2
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Sat Mar 13 18:27:27 2021 +1100
+
+    Adjust index margins and flexbox behaviour
+
+commit cc98aa513eb688287f04150b1add65d941833fc9
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Sat Mar 13 18:14:08 2021 +1100
+
+    Remove auto height declarations
+
+commit 7a14265bbeba02f81fc0a3896695fbc940ad31d0
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Sat Mar 13 18:08:00 2021 +1100
+
+    Tweak project gallery behaviour to test on mobile
+
+commit 983f6149946f60b557a759752ca128c3d270a781
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Sat Mar 13 17:59:52 2021 +1100
+
+    Add attribution links and apply styling
+
+commit 05cc18c57197dbb09de34fee0cb8173f6cd961b1
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Sat Mar 13 17:29:00 2021 +1100
+
+    Adjust project gallery images flex behaviour
+
+commit 3b535deacff79e21337d026742fa6cae2491cb7d
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Sat Mar 13 15:41:15 2021 +1100
+
+    Fix resume flexbox positioning
+
+commit ba559fa6c2680f7a8dcf5fce9a743c49293c5847
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Sat Mar 13 14:11:37 2021 +1100
+
+    Restructure resume page and add dynamic height
+
+commit 4154551fe01fd47b84dcc43cea2ea2e1690dbceb
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Sat Mar 13 13:41:28 2021 +1100
+
+    Adjust margins on project images
+
+commit 0221ee6e6a44b6f3088c81ca733bba7d358d4f31
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Sat Mar 13 13:36:20 2021 +1100
+
+    Adjust margins on images
+
+commit e562407e28a361823a1aeb1430a63806c95a03f4
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Sat Mar 13 13:32:49 2021 +1100
+
+    Tweak project gallery responsive behaviour
+
+commit 85c9b0b463e97e5c656ae4512c2b5e2097ec9ea2
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Sat Mar 13 12:29:05 2021 +1100
+
+    Update mobile navbar to show logo and add all pages to dropdown
+
+commit d3382d7c8ff0f0d4d37f5f53ed40fc717f35309f
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Sat Mar 13 12:04:51 2021 +1100
+
+    Fix section warnings for blog and adjust headings
+
+commit 663034dcf5f3101df1f48a1f112a8801b5d5b2e6
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Sat Mar 13 11:47:04 2021 +1100
+
+    Fix resume.html section warnings
+
+commit 0661643eace7a8022f2092034fb03b18dd2de7d9
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Sat Mar 13 11:41:42 2021 +1100
+
+    Add links to footer and fix index.html section warnings
+
+commit 06f63bcd15a15b2c7e74db096e5243712d8101c6
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Sat Mar 13 11:32:19 2021 +1100
+
+    Add links to contact page and fix blog title
+
+commit 7ded49771f10ddcc3983f45d6348d27867f318f7
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Sat Mar 13 10:52:20 2021 +1100
+
+    Add further blog content
+
+commit 929075db368e18e768974a1138198ce426c9cf81
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Sat Mar 13 10:39:01 2021 +1100
+
+    Add blog elements and content
+
+commit e1697ad5f90dca174e084f4350f2809d684b5f33
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Sat Mar 13 10:03:29 2021 +1100
+
+    Fix navigation bar margin
+
+commit 39d7eef5e9e554b9e87e5ea32e5815a137c4fd55
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Sat Mar 13 10:01:48 2021 +1100
+
+    Remove unnecessary article elements
+
+commit 79069ed2da495311fb99c7c9a593e6f0522c082a
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Sat Mar 13 00:09:48 2021 +1100
+
+    Debug blog gallery issues caused by refactoring
+
+commit 8471470ffc249ba6c48d9716026b7dd886e6302a
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Fri Mar 12 22:20:22 2021 +1100
+
+    Fix landing page paragraph width and W3C markup validation errors
+
+commit a085f8d6bf599607d6d7ff380100056ca0373a50
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Fri Mar 12 20:01:49 2021 +1100
+
+    Populate projects page with figure elements and placeholder projects
+
+commit b5e63903dbe18abc0ca4b2c4c4af4d1dbd04eb77
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Fri Mar 12 19:16:28 2021 +1100
+
+    Make logo click-able to return to home
+
+commit 83036fb675ce7a5e43037143e0a02a22fb6639b1
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Fri Mar 12 19:11:25 2021 +1100
+
+    Fix footer icons
+
+commit 22938046105bb1b61ee8afd9d0d184e17b4a0651
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Fri Mar 12 19:05:16 2021 +1100
+
+    Add resume.pdf and adjust positioning of resume.html elements. Refactor styling code
+
+commit 0d9c12377d0f3831446639b71dd91117c28fbe9f
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Fri Mar 12 14:08:18 2021 +1100
+
+    Restructure folders
+
+commit 56cf23840311a2f6ead5dedb07333f9b2c79e796
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Fri Mar 12 13:10:15 2021 +1100
+
+    Remove superfluous flexbox code
+
+commit 2df837a346dfa62bfe68051e1f2e699a5400fb9f
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Fri Mar 12 08:54:15 2021 +1100
+
+    Fix bug - Navigation bar on contact.html did not show current page on mobile
+
+commit 4b32bf151875ce2ad2ca020337d601f5f042bb3c
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Fri Mar 12 08:50:23 2021 +1100
+
+    Establish core structure for full site, copy components from index
+
+commit 2233c7be252e3c1e676950a17ae9d45a5724ef29
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Thu Mar 11 18:08:22 2021 +1100
+
+    Establish resume.html skeleton; Add shading to nav bar
+
+commit ea2df8f2c41dce412a2f46bea50ab00f4ee5a415
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Thu Mar 11 17:28:15 2021 +1100
+
+    Change background colour and tweak heading padding
+
+commit 4e3321f3b7285d9027c816e6ab1f7fd94faf8fbb
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Thu Mar 11 15:46:50 2021 +1100
+
+    Rewrite margin cascading structure
+
+commit a69b086d45140559eaf63ff41fdaac25cc7a8f42
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Thu Mar 11 14:29:14 2021 +1100
+
+    Remove all link text decorations in all states and set overrides for nav bar
+
+commit 83fd4ba02c27bca795cd90437f018f427b84b1d0
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Thu Mar 11 14:06:43 2021 +1100
+
+    Rewrite skills excerpt on frontpage for better positioning
+
+commit d6d68f7bed32a7c7f060edf65a326d7f38556b7e
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Thu Mar 11 13:44:45 2021 +1100
+
+    Restructure navbar classes and ids to accomodate new contact button. Finetune menu dropdown transitions.
+
+commit f9e9fc4279c0a55aea2ae5789442dc6004d85c84
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Thu Mar 11 13:13:46 2021 +1100
+
+    Rewrite mobile dropdown menu button as checkbox
+
+commit 9538693cfab5abaa23650280b3771399682d698f
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Thu Mar 11 11:59:45 2021 +1100
+
+    Adjust menu button hover behaviour and deploy to test on mobile
+
+commit f0c644f61dfea464e31d5686e30a5a9c6b2c1433
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Thu Mar 11 11:50:20 2021 +1100
+
+    Add menu dropdown transitions
+
+commit 6c85a5fb198fcca2f6d7701a36fa41b1faf2e231
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Thu Mar 11 01:40:31 2021 +1100
+
+    Refine navigation bar positioning
+
+commit 8562d6002f8e59f30af30cdac715a071da20e75b
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Thu Mar 11 00:55:57 2021 +1100
+
+    Add dropdown buttons to navigation bar
+
+commit d7c192ac727193b9c7cc37df745aeb6dbad00fe9
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Wed Mar 10 23:35:17 2021 +1100
+
+    Remove main body vertical flexbox
+
+commit 67f58258d0ade8e326ee4f517af9d3cb4a12f135
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Wed Mar 10 23:32:29 2021 +1100
+
+    Add navbar hover transition
+
+commit 21d186a9eb8c6544c76121d99a1ddda72f639de1
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Wed Mar 10 23:29:50 2021 +1100
+
+    Add navbar hover styling
+
+commit 54853413afdf6975c435db2e71658471f1f4fa50
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Wed Mar 10 23:14:56 2021 +1100
+
+    Add contact icon and return to top functionality
+
+commit 16140405cf3c2a9a5796e23a8cf2b37aa939e89c
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Wed Mar 10 17:45:59 2021 +1100
+
+    Repeat last commit, changes not staged
+
+commit 9c9ff8ef6420b81be49ba15e889801ccc537ca92
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Wed Mar 10 17:44:55 2021 +1100
+
+    Add icons to navigation dropdown button
+
+commit fcdca2faf1061cbd926a9630dd174b16a6226c68
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Wed Mar 10 16:45:50 2021 +1100
+
+    Reconfigure homepage article elements for hover functionality, remove duplicate code
+
+commit 57712a154a6ea5a56afd764da9eafff211605cdc
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Wed Mar 10 15:25:06 2021 +1100
+
+    Fix footer wrapping behaviour and bring back attributions once collapsed
+
+commit 3379ebcae7ea085517c58f4b4d8bf3cc11763582
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Wed Mar 10 14:48:52 2021 +1100
+
+    Finalise slide deck and export as PDF for submission
+
+commit 9334e3310ad366ccd8eef4c5198bb6daa606aa00
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Wed Mar 10 09:19:44 2021 +1100
+
+    Add further detail to component engagement slides
+
+commit 1103b7edd4705bc9d5a0829a28ba958f3a88d005
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Tue Mar 9 23:39:14 2021 +1100
+
+    Minor Adjustment - Fix heading alignment on homepage
+
+commit bd740fe741dc92504d48ca1f0abd180abd48c4cb
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Tue Mar 9 23:18:40 2021 +1100
+
+    Add icons and attributions to footer
+
+commit 517b2ad2c94c13596b37825aced8c3fe8e197d73
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Tue Mar 9 21:13:10 2021 +1100
+
+    Update blog posts and add text
+
+commit 37e9d5640f773e78323d9548ae1f62507f686bbc
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Tue Mar 9 20:46:02 2021 +1100
+
+    Finalise Slide Deck, add images to blog section of homepage, export slide deck to PDF
+
+commit a923d5d84e4f8431d2a987c651fffc55e329c2de
+Merge: 72c4d38 e363b6e
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Tue Mar 9 17:59:09 2021 +1100
+
+    Merge changes from remote branch
+
+commit 72c4d3835d0578ee41d14e7d196d148e6a379630
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Tue Mar 9 17:52:00 2021 +1100
+
+    Add Blog section to index.html and remove duplicate style code
+
+commit e363b6e4b213cc56f3c01b6a6e61709b76b948b0
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Tue Mar 9 17:24:40 2021 +1100
+
+    Update introduction section to adjust to viewport height
+
+commit d1fa074bf6f9fbe9fac32f6ea72018ce1c5e2319
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Tue Mar 9 15:00:59 2021 +1100
+
+    Push to remote to test deployment
+
+commit 413cbeca8bc2c7789c18aa06f74fe8feb951349b
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Tue Mar 9 14:54:25 2021 +1100
+
+    Add project gallery to index.html
+
+commit 0a01502e9b7c5bea4ee0dcc1c708f11b87e3b4c7
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Tue Mar 9 13:14:29 2021 +1100
+
+    add skills section to index.html, rewrite structure of sections and positioning for responsiveness
+
+commit dd95cd6f452a7422ac515b72f2e94f6ff1010980
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Tue Mar 9 03:00:29 2021 +1100
+
+    Update index.html with introduction and various images
+
+commit 3e507ebef3603d97b339e0fc103dc10f1ce77fd1
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Tue Mar 9 00:03:13 2021 +1100
+
+    Update index.html with navigation bar based on flex
+
+commit 386e981eed451dcba36aebc0b4baae592731019d
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Mon Mar 8 22:58:09 2021 +1100
+
+    Add navbar to index using grid
+
+commit ce9ff4490be19d34253b60ed67fed7a678cb4b23
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Mon Mar 8 19:39:52 2021 +1100
+
+    rename style.css
+
+commit f7c6622afff7c20be083017cb4ff76b7679ff381
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Mon Mar 8 19:34:58 2021 +1100
+
+    Restructure slide deck to accomodate new presentation format
+
+commit 5068a29b7b27d620d0a96a013d23fb5ee397bf2c
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Mon Mar 8 19:18:23 2021 +1100
+
+    Rename assignment file in preparation for .zip submission
+
+commit 6a8f14e1e3615d958e31ae84d68bc8a65b286979
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Mon Mar 8 19:13:39 2021 +1100
+
+    Compress powerpoint images
+
+commit 011f70935997b1bf07e2ec51e961ec27a7c12c21
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Mon Mar 8 19:06:55 2021 +1100
+
+    Polish wireframes and update slide deck - 90% complete
+
+commit b71a6e991eed7007a848892693cbe13f1737b95a
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Mon Mar 8 17:57:46 2021 +1100
+
+    Update wireframes again
+
+commit 1cc474ad4f08ea828d2a0b58888a381a8042596b
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Mon Mar 8 17:45:34 2021 +1100
+
+    Add final draft of wireframes and updated slide deck.
+
+commit fb62d0948b9e1ccfa03ee5b60e2e5a989f5dbf34
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Mon Mar 8 16:08:42 2021 +1100
+
+    Add main wireframe and layout of README.md
+
+commit 0acbbe18ef6e9c59826edbcfa9ff70a567d18099
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Mon Mar 8 14:36:39 2021 +1100
+
+    Update file structure to align with new site format
+
+commit 2997428651e1ea05d47955f4dbb03813f455b69b
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Mon Mar 8 13:57:58 2021 +1100
+
+    Set up webpage files and update README.md
+
+commit 094e909f3fcddd3d1405b36436c87b69528a6bfc
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Mon Mar 8 13:43:08 2021 +1100
+
+    Restructure folders to fit Github Pages requirement of index.html in root or docs
+
+commit 5774e675b04b58b2b213708913487141b06effe2
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Mon Mar 8 11:24:07 2021 +1100
+
+    Restructure folders to align with deliverable requirements
+
+commit bbb377b840302db6909cf6aa67485dfec713002c
+Merge: 46a3ea4 e3dd9bd
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Sun Mar 7 19:39:16 2021 +1100
+
+    Merge repos to begin work
+    
+    Merge branch 'main' of https://github.com/garvdev/garvdev into main
+
+commit 46a3ea4ec5753a32b5178ca92ff959954865217b
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Sun Mar 7 19:38:48 2021 +1100
+
+    update index.html to test webpage
+
+commit e3dd9bd74c76d68b6df2e0ff450d268f1fdb5a5b
+Author: garvdev <79407762+garvdev@users.noreply.github.com>
+Date:   Wed Mar 3 22:54:26 2021 +1100
+
+    Create CNAME
+
+commit c2d5bd6c496e7a09e1fc8e5571ef2c51994c3cbd
+Author: garvdev <79407762+garvdev@users.noreply.github.com>
+Date:   Wed Mar 3 22:54:13 2021 +1100
+
+    Delete CNAME
+
+commit 17ad075420e0aea671ca4c6a860e1c64c13c223e
+Author: garvdev <79407762+garvdev@users.noreply.github.com>
+Date:   Wed Mar 3 22:43:24 2021 +1100
+
+    Create CNAME
+
+commit 6f594a37032367232ec98c76a5d820c7f163ed11
+Author: Garvey <79407762+garvdev@users.noreply.github.com>
+Date:   Wed Mar 3 17:46:21 2021 +1100
+
+    Delete CNAME
+
+commit 80f4e3a859d87308c33228454541e1b61214b252
+Author: Garvey <79407762+garvdev@users.noreply.github.com>
+Date:   Wed Mar 3 17:44:37 2021 +1100
+
+    Create CNAME
+
+commit f70d23ac8497828fa20e6dcb737c42a8bff3f328
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Wed Mar 3 17:43:19 2021 +1100
+
+    restructure folders
+
+commit 71b524e6dc15103b99e1a058a6212e8f3ed2f832
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Wed Mar 3 17:32:32 2021 +1100
+
+    add portfolio and move index.html
+
+commit 6feba7336a80b023783c1164ab1a4e972784772b
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Wed Mar 3 17:29:27 2021 +1100
+
+    add gitignore
+
+commit 00307564ba8dd6b7102b54f61fa30c4439418a6d
+Author: garvdev <garvey.chan@icloud.com>
+Date:   Wed Mar 3 17:27:57 2021 +1100
+
+    add index.html
+
+commit b78b6c2f948a965137b5d3bd4ad714cbf89362ff
+Author: Garvey <79407762+garvdev@users.noreply.github.com>
+Date:   Wed Mar 3 17:21:16 2021 +1100
+
+    Initial commit
