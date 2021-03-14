@@ -13,35 +13,68 @@ Website Link - https://garvdev.com
 
 ### Description / Purpose
 
-This website was developed over Week 3 of the Coder Academy Fast-Track Bootcamp in 2021 for Term 1 Assignment 2 to showcase basic HTML/CSS abilities and serve as a practical learning experience for the theory covered in the program thus far.
-
-While finished with respect to the requirements of the assignment, it is a perpetual work-in-progress as my skills and knowledge continue to develop.
+This website was developed over Week 3 of the Coder Academy Fast-Track Bootcamp in 2021 for Term 1 - Assignment 2 to showcase basic HTML/CSS abilities and serve as a practical learning experience for the theory covered in the program thus far. While finished with respect to the requirements of the assignment, it is a perpetual work-in-progress as my skills and knowledge continue to develop.
 
 Since the initial draft was presented halfway through Week 3, there have been several design changes to what was outlined in the slides, including but not limited to:
 - Colour palette simplification;
 - Element positioning tweaks;
 - Removal/Addition/Modification of several components.
 
-These change decisions were made due to time restrictions during implementation, diminishing returns on effort/reward, and further UI/UX considerations. Shunning JavaScript for this assignment was a self-imposed rule in order to force myself to seek out and explore the full potential of HTML/CSS to entrench my understanding of its capabilities.
+These change decisions were made due to time restrictions during implementation, diminishing returns on effort, and further UI/UX considerations. Forgoing JavaScript for this assignment was a self-imposed rule in order to force myself to seek out and explore the full potential of HTML/CSS to entrench my understanding of its capabilities.
 
-There is also plenty of scope for **code refactoring**. This is because a bulk of the website was planned and built before I fully understand the complexities of responsive design elements and the interactions between box models and flexboxes. A lot of the final design tweaks have been applied as 'band-aid solutions' rather than refinement of the underlying styling roots. Given more time, I would rebuild the website from the ground up using **Grids**, develop better **cascading hiearchies** to align with more **structured HTML components**, implement better **naming conventions** and aim for a more modern 'flat' **aesthetic**.
+There is also plenty of scope for **code refactoring**. This is because a bulk of the website was planned and built before I fully understood the complexities of responsive design elements and the interactions between box models and flexboxes. A large number of the final design tweaks have been applied as 'band-aid solutions' rather than through refinement of the underlying styling roots. Given more time, I would rebuild the website from the ground up using **Grids**, develop better **cascading hiearchies** to align with more **structured and distinct HTML components**, implement better **naming conventions** and aim for a more modern 'flat' **aesthetic**.
 
 ### Functionality / Features
 
 The website contains several key components styled around a common theme and utilised throughout each page.
 
-##### Navigation Bar
+##### Navigation Bar (Desktop)
 
+- The navigation bar is a consistent element across each page on the website. 
+- The links will change depending on what page the user is currently on.
+- It has been designed as a fixed flexbox with several components:
+    - Logo (top left) - This takes the user back to the homepage.
+    - Navigation Buttons (center) - Links to each page on the website. The button of the current page takes the user back to the top. Hovering over these buttons highlights them.
+    - *Buffers* - Invisible elements with different flex proprties separating the edge and middle buttons. These grow/shrink at different rates to the rest of the navigation bar.
+    - Contact Button (top right) - This takes the user to the contact page.
+- The header has been set to stand out with a *box-shadow* and a *z-index* of 10 to keep it above all the other content.
+
+![Desktop Navigation Bar](./docs/feature-screenshots/nav-bar.png)
+
+##### Navigation Bar (Mobile)
+
+- When switching to mobile view, the navigation bar collapses and undergoes the following changes:
+    - Center navigation buttons are hidden.
+    - Logo shifted into the center and takes user back to the top when clicked.
+    - Menu dropdown becomes available on the top left. When clicked, all pages on the website are shown.
+    - Contact button switched from text to icon.
+
+![Mobile Navigation Bar](./docs/feature-screenshots/nav-bar-mobile.png)
 
 ##### Main Sections
 
 *Articles/Figures - Image & Text*
+- The main sections are comprised of either text, images or a combination of both.
+- Variations of these sections exist throughout the website.
+- They are usually flexboxes with either row or column flow depending on the style requirements of their content.
 
-*Pure Text (Split Paragraphs / Full Paragraphs)*
+![Image-Text](./docs/feature-screenshots/image-text.png)
+![Article](./docs/feature-screenshots/article.png)
+
+- A notable variation of the sections described above is the gallery.
+- This section is comprised of images with minimal text, designed to quickly display graphical content. However, they can have special hover functions which provide more context for each image.
 
 *Gallery*
+![Gallery 1](./docs/feature-screenshots/project-gallery.png)
+![Gallery 2](./docs/feature-screenshots/blog-gallery.png)
 
 ##### Footer
+
+- The footer is a simple component set to reside after all the other sections on every page in the website.
+- It contains attributions and social media links.
+- When switched to mobile, the content is stacked on top of one another.
+
+![Footer](./docs/feature-screenshots/footer.png)
 
 
 ### Sitemap
@@ -69,7 +102,7 @@ The target audience of this website is comprised of the wonderful educators at C
 
 ### Tech Stack
 
-This website was written with HTML5 and CSS3 with the help of development tools including VSCode, Chrome Developer Tools, Github Version Control, and Trello. This website has been deployed via Github Pages with a custom domain from Namecheap.
+This website was written using HTML and CSS with the help of development tools including VSCode, Chrome Developer Tools, Github Version Control, and Trello. This website has been deployed via Github Pages with a custom domain from Namecheap.
 
 ![Trello](./docs/dev-screenshots/trello.png)
 ![VSCode](./docs/dev-screenshots/vscode.png)
