@@ -7,12 +7,6 @@
 
 <hr>
 
-Website Link - https://garvdev.com
-
-Github Link - https://github.com/garvdev/garvdev
-
-<hr>
-
 ### Description / Purpose
 
 This website was developed over Week 3 of the Coder Academy Fast-Track Bootcamp in 2021 for Term 1 - Assignment 2 to showcase basic HTML/CSS abilities and serve as a practical learning experience for the theory covered in the program thus far. While finished with respect to the requirements of the assignment, it is a perpetual work-in-progress as my skills and knowledge continue to develop.
@@ -85,10 +79,8 @@ The website contains several key components styled around a common theme and uti
 
 ### Screenshots
 
-![Index-1](./docs/site-screenshots/index-1.png)
 ![Index-2](./docs/site-screenshots/index-2.png)
 ![Index-3](./docs/site-screenshots/index-3.png)
-![Resume](./docs/site-screenshots/resume.png)
 ![Projects-1](./docs/site-screenshots/projects-1.png)
 ![Projects-2](./docs/site-screenshots/projects-2.png)
 ![Blog](./docs/site-screenshots/blog.png)
