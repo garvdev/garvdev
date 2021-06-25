@@ -1,9 +1,13 @@
 
-# T1A2 - Portfolio
+# T1A2 - Portfolio v1
 
 ### Coder Academy<br>Sydney Fast-Track Bootcamp 2021
 
 ##### Garvey Chan
+
+<hr>
+
+Note - this is an early iteration of my portfolio website built with raw HTML/CSS and will be superseded by a React-based version.
 
 <hr>
 
